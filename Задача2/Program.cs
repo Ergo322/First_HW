@@ -8,10 +8,12 @@
         int B =Convert.ToInt32(Console.ReadLine());
         if(A>B)
         {
+            Console.Write("MAX = ");
             Console.Write(A);
         }
         else
         {
+            Console.Write("MAX = ");
             Console.Write(B);
         }
     }
