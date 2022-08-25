@@ -1,5 +1,8 @@
-﻿        void ThirdNum()
-        {
+﻿internal class Program
+{
+    private static void Main(string[] args)
+    {
+
             Console.Clear();
             Console.WriteLine("Введите число");
             int A = Convert.ToInt32(Console.ReadLine());
@@ -24,6 +27,7 @@
                 {
                     Console.Write(A + " —> Третьей цифры нет");
                 }
-            }
-            ThirdNum();
+
         }
+    }
+}
